@@ -1,8 +1,4 @@
-class Test {
-  constructor() {
-    console.log('Test was completed. Live reload should work from within the Docker container');
-  }
-}
+import Test from './Test';
 
 window.onload = function(e){ 
   new Test();
